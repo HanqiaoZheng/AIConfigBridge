@@ -50,8 +50,8 @@ export interface Adapter {
   name: string;
   toolType: ToolType;
   version: string;
-  parse(content: string): Promise<AICConfig>;
-  serialize(config: AICConfig): Promise<string>;
+  parse(content: string): Promise<ParseResult>;
+  serialize(config: AICConfig): Promise<SerializeResult>;
   supportedFilePatterns: string[];
 }
 
