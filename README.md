@@ -105,11 +105,25 @@ aiconfigbridge/
 
 ## 6. 开发计划
 
-1. **Phase 1** - 核心引擎（解析器 + 转换器）
-2. **Phase 2** - 适配器实现（Cursor, Windsurf, GitHub Copilot）
-3. **Phase 3** - CLI工具
-4. **Phase 4** - Web可视化界面
-5. **Phase 5** - 更多工具支持（Zed, Bolt, Claude Code, Aider）
+| Phase | 状态 | 说明 |
+|-------|------|------|
+| Phase 1 | ✅ 完成 | 核心引擎（解析器 + 转换器） |
+| Phase 2 | ✅ 完成 | 适配器实现（Cursor, Windsurf, Zed, Bolt, Copilot） |
+| Phase 3 | ✅ 完成 | CLI工具 |
+| Phase 4 | ✅ 完成 | Web可视化界面 |
+| Phase 5 | 🔄 待开发 | 更多工具支持（Claude Code, Aider） |
+
+### 已支持的工具
+
+| 类型 | 工具 | 配置格式 | 状态 |
+|------|------|----------|------|
+| AI代码编辑器 | Cursor | `.cursorrules` | ✅ |
+| | Windsurf | `.windsurfrules` | ✅ |
+| | Zed | `config.json`, `.zedrules` | ✅ |
+| | Bolt | `bolt.json` | ✅ |
+| AI CLI工具 | GitHub Copilot | `.copilot.json` | ✅ |
+| | Claude Code | - | 🔄 |
+| | Aider | - | 🔄 |
 
 ## 7. 使用方式
 
