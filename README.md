@@ -111,7 +111,10 @@ aiconfigbridge/
 | Phase 2 | ✅ 完成 | 适配器实现（Cursor, Windsurf, Zed, Bolt, Copilot） |
 | Phase 3 | ✅ 完成 | CLI工具 |
 | Phase 4 | ✅ 完成 | Web可视化界面 |
-| Phase 5 | 🔄 待开发 | 更多工具支持（Claude Code, Aider） |
+| Phase 5 | 🔄 待开发 | Claude Code适配器 |
+| Phase 6 | 🔄 待开发 | Aider适配器 |
+| Phase 7 | 🔄 待开发 | CLI增强（交互式模式、配置文件支持） |
+| Phase 8 | 🔄 待开发 | Web界面增强（主题切换、历史记录） |
 
 ### 已支持的工具
 
@@ -122,8 +125,8 @@ aiconfigbridge/
 | | Zed | `config.json`, `.zedrules` | ✅ |
 | | Bolt | `bolt.json` | ✅ |
 | AI CLI工具 | GitHub Copilot | `.copilot.json` | ✅ |
-| | Claude Code | - | 🔄 |
-| | Aider | - | 🔄 |
+| | Claude Code | `claude.json` | 🔄 |
+| | Aider | `.aider.conf.yml` | 🔄 |
 
 ## 7. 使用方式
 
