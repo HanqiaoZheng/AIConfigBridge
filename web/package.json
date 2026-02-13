@@ -1,0 +1,19 @@
+{
+  "name": "@aiconfigbridge/web",
+  "version": "1.0.0",
+  "description": "AIConfigBridge Web界面",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "@aiconfigbridge/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
