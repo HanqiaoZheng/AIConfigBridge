@@ -114,8 +114,8 @@ aiconfigbridge/
 | Phase 5 | ✅ 完成 | Claude Code适配器 |
 | Phase 6 | ✅ 完成 | OpenCode适配器 |
 | Phase 7 | ✅ 完成 | Aider适配器 |
-| Phase 8 | 🔄 待开发 | CLI增强（交互式模式、配置文件支持） |
-| Phase 9 | 🔄 待开发 | Web界面增强（主题切换、历史记录） |
+| Phase 8 | ✅ 完成 | CLI增强（交互式模式、配置文件支持） |
+| Phase 9 | ✅ 完成 | Web界面增强（主题切换、历史记录） |
 
 ### 已支持的工具
 
@@ -138,11 +138,23 @@ aiconfigbridge/
 # 安装
 npm install -g aiconfigbridge
 
-# 转换配置
-aiconfigbridge convert --input cursor.json --output windsurf
+# 交互式模式
+aiconfigbridge interactive
 
-# 导出为统一格式
-aiconfigbridge export --tool cursor --output config.json
+# 转换配置
+aiconfigbridge convert -i input.cursorrules -f cursor -t windsurf -o output.windsurfrules
+
+# 解析配置
+aiconfigbridge parse -i input.json -o config.json
+
+# 检测类型
+aiconfigbridge detect -i .cursorrules
+
+# 列出支持的工具
+aiconfigbridge list
+
+# 管理配置
+aiconfigbridge config
 ```
 
 ### Web界面
