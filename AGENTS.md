@@ -212,13 +212,16 @@ feat: 添加Cursor配置适配器
 - [ ] Phase 5: Claude Code适配器
   - [ ] 实现Claude Code配置解析
   - [ ] 实现Claude Code配置序列化
-- [ ] Phase 6: Aider适配器
+- [ ] Phase 6: OpenCode适配器
+  - [ ] 实现OpenCode配置解析
+  - [ ] 实现OpenCode配置序列化
+- [ ] Phase 7: Aider适配器
   - [ ] 实现Aider配置解析
   - [ ] 实现Aider配置序列化
-- [ ] Phase 7: CLI增强
+- [ ] Phase 8: CLI增强
   - [ ] 添加交互式模式
   - [ ] 添加配置文件支持
-- [ ] Phase 8: Web界面增强
+- [ ] Phase 9: Web界面增强
   - [ ] 添加主题切换
   - [ ] 添加历史记录
 ```
