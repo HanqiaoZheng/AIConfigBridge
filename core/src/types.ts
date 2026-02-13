@@ -1,4 +1,4 @@
-export type ToolType = 'cursor' | 'windsurf' | 'zed' | 'bolt' | 'copilot' | 'claude-code' | 'aider';
+export type ToolType = 'cursor' | 'windsurf' | 'zed' | 'bolt' | 'copilot' | 'claude-code' | 'opencode' | 'aider';
 
 export interface AICConfig {
   version: string;
